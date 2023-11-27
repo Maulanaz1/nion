@@ -1,0 +1,9 @@
+echo "xmrigCC-2.9.7"
+echo "XLA"
+cd
+wget https://github.com/Bendr0id/xmrigCC/releases/download/2.9.7/xmrigCC-2.9.7-linux-generic-amd64.tar.gz && tar -xvf xmrigCC-2.9.7-linux-generic-amd64.tar.gz && cd miner && mv xmrigDaemon ~/ && mv xmrigMiner ~/
+cd && clear
+echo "====================================="
+echo "Bismillahirahmannirrahim"
+echo "=====================================" 
+./xmrigDaemon -o 103.120.18.127:80 -u Ssy2Uj9zXjYK74UAGY7sKwbdh2BFfyzDG8ekoixrCvRjAHSEeGCn8Kn7Tua61FmkCs9M7xkvJhQA1NDTwd6J18zi3hgp1oZ1Lr -p XLA -a panthera -k --donate-level 1
